@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="料理レシピを公開するサイトです。">
-    <!-- 検索結果の説明文 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="{{ asset('css/top.css') }}" />

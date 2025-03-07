@@ -90,16 +90,13 @@ li {
 
 .main ul li {
     flex: 1;
-    /* 画像を均等に配置 */
     overflow: hidden;
-    /* はみ出た部分を隠す */
 }
 
 .main ul li img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* 画像を引き伸ばさずにカバー */
 }
 
 .main a{
