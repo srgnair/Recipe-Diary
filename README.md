@@ -17,6 +17,9 @@ git clone https://github.com/srgnair/Recipe-Diary.git
 
 ## スクリーンショット
 
+![Image](https://github.com/user-attachments/assets/a7756f12-9018-48d8-82c8-72acaf09deed)
+
+![Image](https://github.com/user-attachments/assets/a8a24a6f-ee15-4f00-9397-c7e7a845edfd)
 
 ## ライセンス
 このプロジェクトは学習目的のため、商用利用はご遠慮ください。
