@@ -98,7 +98,12 @@ li {
     object-fit: cover;
 }
 
-.main a{
+.main img:hover, .main__list-link:hover{
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.main__list-link{
     padding: 18px 60px;
     border: #2B2A27 1px solid;
     font-size: 0.875rem;
