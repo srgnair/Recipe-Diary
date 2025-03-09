@@ -23,11 +23,11 @@
         </section>
         <section class="main">
             <ul>
-                <li><img src="{{ asset('images/recipe1.jpg') }}" alt="レシピ1"></li>
-                <li><img src="{{ asset('images/recipe2.jpg') }}" alt="レシピ2"></li>
-                <li><img src="{{ asset('images/recipe3.jpg') }}" alt="レシピ3"></li>
+                <li><a href="{{ route('main') }}"><img src="{{ asset('images/recipe1.jpg') }}" alt="レシピ1"></a></li>
+                <li><a href="{{ route('main') }}"><img src="{{ asset('images/recipe2.jpg') }}" alt="レシピ2"></a></li>
+                <li><a href="{{ route('main') }}"><img src="{{ asset('images/recipe3.jpg') }}" alt="レシピ3"></a></li>
             </ul>
-            <a href="#">レシピ一覧を見る</a>
+            <a class="main__list-link" href="#">レシピ一覧を見る</a>
         </section>
     </main>
 
