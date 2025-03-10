@@ -5,15 +5,34 @@
 HTML/CSSの学習を目的として、デザインカンプを元にコーディングしました。
 
 ## 使用技術
-- HTML
+- Laravel
+- Blade (Laravelのテンプレートエンジン)
 - CSS
+- Docker
 
 ## インストール方法
 
-1. リポジトリをクローン
-git clone https://github.com/srgnair/Recipe-Diary.git
+1. **リポジトリをクローン**
+   ```sh
+   git clone https://github.com/srgnair/Recipe-Diary.git
+   cp .env.example .env
+   cd Recipe-Diary
 
-2. `index.html` をブラウザで開く
+2. 環境変数の設定 (.env のコピー)
+   ```
+   cp .env.example .env
+
+4.	コンテナ作成 & 起動
+  	```
+    docker compose up -d --build
+
+6.	依存関係のインストール
+    ```
+  	docker compose exec app composer install
+    docker compose exec app php artisan key:generate
+
+7.	http://localhost にアクセス
+
 
 ## スクリーンショット
 
